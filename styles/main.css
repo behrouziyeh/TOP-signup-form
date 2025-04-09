@@ -12,3 +12,45 @@ body {
     block-size: 100vh;
     margin: 0;
 }
+
+.background {
+    background: url("../assets/background.jpg") center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    inline-size: 50%;
+}
+
+.background__label {
+    background: rgb(0 0 0 / 0.5);
+    display: flex;
+    flex-basis: 2rem;
+    padding: 32px;
+    margin-block-start: 20%;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.background__label-icon {
+    block-size: 5rem;
+    flex-shrink: 0;
+}
+
+.background__label-text {
+    font-family: "Norse";
+    font-weight: bold;
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.background__img-source {
+    margin-block-start: auto;
+    color: white;
+    a {
+        color: inherit;
+    }
+    text-align: center;
+}
+
