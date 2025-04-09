@@ -54,3 +54,17 @@ body {
     text-align: center;
 }
 
+.main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    > * {
+        padding-inline: 32px;
+    }
+}
+
+.description {
+    max-inline-size: 66ch;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
