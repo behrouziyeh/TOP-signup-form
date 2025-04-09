@@ -118,3 +118,11 @@ body {
     border-radius: 4px;
 }
 
+.login-info {
+    margin: 0;
+}
+
+.login-info__link {
+    text-decoration: none;
+    color: #596d48;
+}
